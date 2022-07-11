@@ -67,3 +67,7 @@ h2, h3 {
 #email {
     margin-bottom: 5px;
 }
+
+.contato {
+    display: flex;
+}
