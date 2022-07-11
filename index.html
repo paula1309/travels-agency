@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- BOOSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <title> HOME </title>
+</head>
+<body>
+    <!-- CABEÇALHO DA PÁGINA PRINCIPAL-->
+    <header>
+        <div class="topHeader">
+            <img src="#" alt="logo"/>
+            <div class="social-network">
+                <img src="#" alt="logo do facebook"/>
+                <img src="#" alt="logo do instagram"/>
+                <img src="#" alt="logo do whatsapp"/>
+            </div>
+        </div>
+        <nav class="navBar">
+            <ul>
+                <li>
+                    Home
+                </li>
+                <li>
+                    Destinos
+                </li>
+                <li>
+                    Promoções
+                </li>
+                <li>
+                    Contato
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- CONTEÚDO PRINCIPAL-->
+    <main>
+        <!-- PASSAGENS AÉREAS -->
+        <section>
+            <h2>
+                Passagens Aéreas
+            </h2>
+            <form>
+                <!--RADIO BUTTONS-->
+                <input type="radio" id="idaVolta" name="travelOptions" value="idaVolta" checked>
+                <label for="idaVolta">Ida e Volta</label>
+
+                <input type="radio" id="ida" name="travelOptions" value="ida">
+                <label for="ida">Só ida</label>   
+                
+                <!-- ORIGEM E DESTINO-->
+                <div>
+                    <label for="origin">Origem</label>
+                    <input type="text" id="origin" placeholder="Insira a cidade de origem" />
+                    <label for="destiny">Destino</label>
+                    <input type="text" id="destiny" placeholder="Insira a cidade de destino" />
+                </div>
+
+                <!-- DATA DA VIAGEM-->
+                <div>
+                    <label for="origin">Datas</label>
+                    <input type="date" id="ida" />
+                    <input type="date" id="volta" />
+                </div>
+
+                <!-- BOTÃO DE BUSCAR-->
+                <button>
+                    Buscar
+                </button>
+            </form>
+        </section>
+
+        <!-- DESTINOS MAIS BUSCADOS-->
+        <section>
+            <h2>
+                Top Destinos Mais Buscados
+            </h2>
+            <div>
+                <img src="#" alt="Vista da Cidade de Fortaleza" />
+                <p> Fortaleza </p>
+            </div>
+            <div>
+                <img src="#" alt="Vista da Cidade de Fortaleza" />
+                <p> Recife </p>
+            </div>
+            <button>
+                Mais
+            </button>
+        </section>
+
+        <!-- OFERTAS-->
+        <section>
+            <h2>
+                Ofertas que não podem esperar
+            </h2>
+            <div>
+                <img src="#" alt="Mulher Sorrindo em frente ao computador" />
+                <button>
+                    Ver Ofertas
+                </button>
+            </div>
+        </section>
+    </main>
+
+    <!-- RODAPÉ DA PÁGINA PRINCIPAL-->
+    <footer>
+        <h2>
+            Inscreva-se para receber as novidades
+        </h2>
+        <form>
+            <label for="email">email</label>
+            <input type="email" id="email" placeholder="Insira seu e-mail" />
+            <button>
+                Quero recebê-las!
+            </button>
+        </form>
+    </footer>
+</body>
+</html>
