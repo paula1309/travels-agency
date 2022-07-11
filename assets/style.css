@@ -1,0 +1,69 @@
+.top-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tickets {
+    background-color: #270570;
+    color: #fff;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+h2, h3 {
+    margin-left: 10px;
+}
+
+.radio-buttons {
+    border-bottom: 2px solid #fff;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.travel-local, .dates {
+    background-color: #fff;
+    color: #000;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.dates {
+    background-color: #fff;
+    color: #000;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.dates input {
+    width: 40%;
+    margin-left: 7px;
+}
+
+.top-destinations {
+    display: flex;
+    margin: 3px;
+    padding: 3px;
+}
+
+.top-destinations img {
+    height: 80%;
+}
+
+.footer {
+    background-color: #270570;
+    color: #fff;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+#email {
+    margin-bottom: 5px;
+}
