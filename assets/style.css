@@ -93,7 +93,7 @@ h2, h3 {
     margin: 50px 0;
 }
 
-.card {
+.card-buy {
     width: 24%;
     margin: 15px;
     box-sizing: border-box;
@@ -107,13 +107,13 @@ h2, h3 {
     transition: .4s;
 }
 
-.card:hover {
+.card-buy:hover {
     box-shadow: 0 0 11px rgba(33,33,33,.2);
     transform: translate(0px, -8px);
     transition: .6s;
 }
 
-.card img {
+.card-buy img {
     width: 200px;
     height: 200px;
     text-align: center;
@@ -121,20 +121,20 @@ h2, h3 {
     display: block;
 }
 
-.card p {
+.card-buy p {
     text-align: center;
     color: #b2bec3;
     padding: 0 8px;
 }
 
-.card h6 {
+.card-buy h6 {
     font-size: 26px;
     text-align: center;
     color: #222f3e;
     margin: 0;
 }
 
-.card ul {
+.card-buy ul {
     list-style-type: none;
     display: flex;
     justify-content: center;
@@ -142,7 +142,7 @@ h2, h3 {
     padding: 0px;
 }
 
-.card li {
+.card-buy li {
     padding: 5px;
 }
 
@@ -157,7 +157,7 @@ h2, h3 {
     transition: .6s;
 }
 
-.card button {
+.card-buy button {
     text-align: center;
     font-size: 24px;
     color: #fff;
@@ -183,12 +183,12 @@ h2, h3 {
 }
 
 @media(max-width: 1000px){
-    .card{
+    .card-buy{
         width: 46%;
     }
 }
 @media(max-width: 750px){
-    .card{
+    .card-buy{
         width: 100%;
     }
 }
