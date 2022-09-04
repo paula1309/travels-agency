@@ -1,3 +1,5 @@
+/* Parte do Cabeçalho */
+
 .top-header {
     display: flex;
     justify-content: space-between;
@@ -6,7 +8,7 @@
 .logo {
     display: flex;
     justify-content:start;
-    width: 17%;
+    width: 25%;
 }
 
 .logo h1{
@@ -28,12 +30,16 @@
     padding-top: 10px;
 }
 
+/* Parte das Passagens */
+
 .tickets {
     background-color: #270570;
     color: #fff;
     margin: 10px;
     padding: 10px;
     border-radius: 10px;
+    width: 80%;
+    margin: auto;
 }
 
 h2, h3 {
@@ -46,12 +52,17 @@ h2, h3 {
     padding-bottom: 10px;
 }
 
-.travel-local, .dates {
+.travel-inputs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.travel-local {
+    display: flex;
     background-color: #fff;
     color: #000;
     border-radius: 10px;
-    display: flex;
-    flex-direction: column;
     padding: 10px;
     margin-bottom: 10px;
 }
@@ -213,6 +224,15 @@ h2, h3 {
     }
     .img-and-title p{
         display: none;
+    }
+    .tickets{
+        width: 100%;
+    }
+    .travel-inputs{
+        flex-direction: column;
+    }
+    .travel-local{
+        flex-direction: column;
     }
     .card-buy{
         width: 46%;

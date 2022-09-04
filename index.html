@@ -20,10 +20,12 @@
     <!-- CABEÇALHO DA PÁGINA PRINCIPAL-->
     <header>
         <div class="top-header">
+            <!-- Logo e Nome da Empresa-->
             <div class="logo">
                 <img src="assets/img/plane-40.png" alt="logo"/>
                 <h1>Decola Já Turismo</h1>
             </div>
+            <!-- Redes Sociais -->
             <div class="social-network">
                 <a href="#" class="img-and-title">
                     <img src="assets/img/facebook.svg" alt="logo do facebook"/>
@@ -39,6 +41,7 @@
                 </a>
             </div>
         </div>
+        <!-- Menu -->
         <nav class="navbar navbar-expand">
             <ul class="navbar-nav">
                 <li class="nav-item">
@@ -69,25 +72,30 @@
     <main>
         <!-- PASSAGENS AÉREAS -->
         <section class="tickets">
+            <!--TÍTULO PASSAGENS AÉREAS-->
             <h2>
                 Passagens Aéreas
             </h2>
-            <form>
-                <!--RADIO BUTTONS-->
-                <div class="radio-buttons">
-                    <input type="radio" id="idaVolta" name="travelOptions" value="idaVolta" checked>
-                    <label for="idaVolta">Ida e Volta</label>
+            <!--RADIO BUTTONS-->
+            <div class="radio-buttons">
+                <input type="radio" id="idaVolta" name="travelOptions" value="idaVolta" checked>
+                <label for="idaVolta">Ida e Volta</label>
 
-                    <input type="radio" id="ida" name="travelOptions" value="ida">
-                    <label for="ida">Só ida</label>
-                </div>   
-                
+                <input type="radio" id="ida" name="travelOptions" value="ida">
+                <label for="ida">Só ida</label>
+            </div>
+            <!-- DADOS DA VIAGEM-->   
+            <form class="travel-inputs">
                 <!-- ORIGEM E DESTINO-->
                 <div class="travel-local form-group">
-                    <label for="origin">Origem</label>
-                    <input class="form-control" type="text" id="origin" placeholder="Insira a cidade de origem" />
-                    <label for="destiny">Destino</label>
-                    <input class="form-control" type="text" id="destiny" placeholder="Insira a cidade de destino" />
+                    <div>
+                        <label for="origin">Origem</label>
+                        <input class="form-control" type="text" id="origin" placeholder="Insira a cidade de origem" />
+                    </div>
+                    <div>
+                        <label for="destiny">Destino</label>
+                        <input class="form-control" type="text" id="destiny" placeholder="Insira a cidade de destino" />
+                    </div>
                 </div>
 
                 <!-- DATA DA VIAGEM-->
