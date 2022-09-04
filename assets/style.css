@@ -3,6 +3,19 @@
     justify-content: space-between;
 }
 
+.logo {
+    display: flex;
+    justify-content:start;
+    width: 17%;
+}
+
+.logo h1{
+    font-size: 1.3rem;
+    align-self: flex-end;
+    color: #270570;
+    padding-bottom: 5px;
+}
+
 .tickets {
     background-color: #270570;
     color: #fff;
@@ -183,6 +196,9 @@ h2, h3 {
 }
 
 @media(max-width: 1000px){
+    .logo h1{
+        display: none;
+    }
     .card-buy{
         width: 46%;
     }
