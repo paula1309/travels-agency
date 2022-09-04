@@ -83,10 +83,27 @@ h2, h3 {
     margin-left: 7px;
 }
 
+/* Parte Destinos Mais Buscados */
+
+.destination-and-offers{
+    display: flex;
+}
+
+.destinations-most-searched, .offers-box{
+    width: 50%;
+    margin: 20px;
+}
+
 .top-destinations {
     display: flex;
+    height: 80%;
     margin: 3px;
     padding: 3px;
+}
+
+.destinations {
+    width: 48%;
+    margin-right: 10px;
 }
 
 .top-destinations img {
@@ -233,6 +250,13 @@ h2, h3 {
     }
     .travel-local{
         flex-direction: column;
+    }
+    .destination-and-offers{
+        flex-direction: column;
+    }
+    .destinations-most-searched, .offers-box{
+        width: 100%;
+        margin: 0px;
     }
     .card-buy{
         width: 46%;
