@@ -16,6 +16,18 @@
     padding-bottom: 5px;
 }
 
+.social-network{
+    display: flex;
+}
+
+.img-and-title{
+    display: flex;
+}
+
+.img-and-title p {
+    padding-top: 10px;
+}
+
 .tickets {
     background-color: #270570;
     color: #fff;
@@ -195,8 +207,11 @@ h2, h3 {
     background-color: #0b0b0b;
 }
 
-@media(max-width: 1000px){
+@media(max-width: 960px){
     .logo h1{
+        display: none;
+    }
+    .img-and-title p{
         display: none;
     }
     .card-buy{
