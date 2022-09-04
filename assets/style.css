@@ -110,6 +110,29 @@ h2, h3 {
     height: 80%;
 }
 
+/* Página de Destinos Estilizações */
+
+.carousel-part{
+    width: 100%;
+    background-color: #2183a2;
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-box {
+    width: 80%;
+}
+
+.carousel-img {
+    max-height: 400px;
+}
+
+.carousel-img img{
+    width: 100%;
+}
+
+/* Outros */
+
 .footer {
     background-color: #270570;
     color: #fff;
